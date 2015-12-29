@@ -1,7 +1,5 @@
 var map = new L.Map('divMap',
 	{center: new L.LatLng(40.5, -89.5), zoom: 8});
-osmLayer = L.TileLayer.OpenStreetMap();
-map.addLayer(osmLayer);
 
 function onLocationFound(e) {
 	console.log(e);
