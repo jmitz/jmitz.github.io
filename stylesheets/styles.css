@@ -101,3 +101,10 @@ nav.flex-nav {
     background-color: yellow;
   }
 }
+
+/*
+  Leaflet Configuration
+*/
+.leaflet-popup-content {
+  color: black;
+}
